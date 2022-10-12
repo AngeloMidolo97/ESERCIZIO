@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8E018;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    padding-top: 20px;
+}
+
+h3 {
+    padding: 50px;
+}
+
+p {
+    padding: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+input {
+    margin-bottom: 20px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: #F8E018;
+    font-size: 2rem;
+}
+
+#totale {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+#tot {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
